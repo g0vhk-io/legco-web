@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e0a35ea649f6de0f0eb4ed53b93e0981",
+    "revision": "96974fcac033ba855e1651602eb8fab8",
     "url": "/legco-web/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/legco-web/static/css/2.e31a430a.chunk.css"
   },
   {
-    "revision": "9579d0ec7575df7d4490",
+    "revision": "5e02734f9b405c271163",
     "url": "/legco-web/static/css/main.56193a87.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/legco-web/static/js/2.5f5348c3.chunk.js"
   },
   {
-    "revision": "9579d0ec7575df7d4490",
-    "url": "/legco-web/static/js/main.6ccab305.chunk.js"
+    "revision": "5e02734f9b405c271163",
+    "url": "/legco-web/static/js/main.4cf93ad8.chunk.js"
   },
   {
     "revision": "7e6bd7bb4f6c656c783f",

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/legco-web/precache-manifest.c6b7d9f4da79fa29689505b02b1d37bd.js"
+  "/legco-web/precache-manifest.dc818295e520b74b74ef92fdf8f31b2a.js"
 );
 
 self.addEventListener('message', (event) => {

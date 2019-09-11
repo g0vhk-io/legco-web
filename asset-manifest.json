@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/legco-web/static/css/main.56193a87.chunk.css",
-    "main.js": "/legco-web/static/js/main.6ccab305.chunk.js",
-    "main.js.map": "/legco-web/static/js/main.6ccab305.chunk.js.map",
+    "main.js": "/legco-web/static/js/main.4cf93ad8.chunk.js",
+    "main.js.map": "/legco-web/static/js/main.4cf93ad8.chunk.js.map",
     "runtime~main.js": "/legco-web/static/js/runtime~main.f785eadf.js",
     "runtime~main.js.map": "/legco-web/static/js/runtime~main.f785eadf.js.map",
     "static/css/2.e31a430a.chunk.css": "/legco-web/static/css/2.e31a430a.chunk.css",
     "static/js/2.5f5348c3.chunk.js": "/legco-web/static/js/2.5f5348c3.chunk.js",
     "static/js/2.5f5348c3.chunk.js.map": "/legco-web/static/js/2.5f5348c3.chunk.js.map",
     "index.html": "/legco-web/index.html",
-    "precache-manifest.c6b7d9f4da79fa29689505b02b1d37bd.js": "/legco-web/precache-manifest.c6b7d9f4da79fa29689505b02b1d37bd.js",
+    "precache-manifest.dc818295e520b74b74ef92fdf8f31b2a.js": "/legco-web/precache-manifest.dc818295e520b74b74ef92fdf8f31b2a.js",
     "service-worker.js": "/legco-web/service-worker.js",
     "static/css/2.e31a430a.chunk.css.map": "/legco-web/static/css/2.e31a430a.chunk.css.map",
     "static/css/main.56193a87.chunk.css.map": "/legco-web/static/css/main.56193a87.chunk.css.map",
