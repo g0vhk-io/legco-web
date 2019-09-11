@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.2cce8147.chunk.css",
-    "main.js": "/static/js/main.23d855a7.chunk.js",
-    "main.js.map": "/static/js/main.23d855a7.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.90f6c74b.js",
-    "runtime~main.js.map": "/static/js/runtime~main.90f6c74b.js.map",
-    "static/js/2.5c826456.chunk.js": "/static/js/2.5c826456.chunk.js",
-    "static/js/2.5c826456.chunk.js.map": "/static/js/2.5c826456.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.785b1baae1031c33072cc4d891afc804.js": "/precache-manifest.785b1baae1031c33072cc4d891afc804.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2cce8147.chunk.css.map": "/static/css/main.2cce8147.chunk.css.map",
-    "static/media/logo.svg": "/static/media/logo.5d5d9eef.svg"
+    "main.css": "/legco-web/static/css/main.56193a87.chunk.css",
+    "main.js": "/legco-web/static/js/main.6ccab305.chunk.js",
+    "main.js.map": "/legco-web/static/js/main.6ccab305.chunk.js.map",
+    "runtime~main.js": "/legco-web/static/js/runtime~main.f785eadf.js",
+    "runtime~main.js.map": "/legco-web/static/js/runtime~main.f785eadf.js.map",
+    "static/css/2.e31a430a.chunk.css": "/legco-web/static/css/2.e31a430a.chunk.css",
+    "static/js/2.5f5348c3.chunk.js": "/legco-web/static/js/2.5f5348c3.chunk.js",
+    "static/js/2.5f5348c3.chunk.js.map": "/legco-web/static/js/2.5f5348c3.chunk.js.map",
+    "index.html": "/legco-web/index.html",
+    "precache-manifest.c6b7d9f4da79fa29689505b02b1d37bd.js": "/legco-web/precache-manifest.c6b7d9f4da79fa29689505b02b1d37bd.js",
+    "service-worker.js": "/legco-web/service-worker.js",
+    "static/css/2.e31a430a.chunk.css.map": "/legco-web/static/css/2.e31a430a.chunk.css.map",
+    "static/css/main.56193a87.chunk.css.map": "/legco-web/static/css/main.56193a87.chunk.css.map",
+    "static/media/logo.svg": "/legco-web/static/media/logo.5d5d9eef.svg"
   }
 }
