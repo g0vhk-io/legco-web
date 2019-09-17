@@ -40,9 +40,8 @@ const result = [
     lastAction: 'absent',
   }
 ];
-const loading = () => <div className="animated fadeIn pt-1 text-center">Loading...</div>;
 
-function Result({ history }) {
+function Member({ history }) {
   return (
     <div className="animated fadeIn bg-white">
 
@@ -88,4 +87,4 @@ function Result({ history }) {
   );
 }
 
-export default withRouter(Result);
+export default withRouter(Member);

@@ -1,0 +1,42 @@
+.info {
+  padding: 10px;
+  background: #fff;
+  position: relative;
+  margin: 0;
+}
+.avatar {
+  width: 90px;
+  height: 90px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  overflow: hidden;
+  
+  .party {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 1px 5px;
+    border-top-left-radius: 4px;
+    font-size: 11px;
+  }
+}
+.tags h5 {
+  margin: 0 3px;
+  display: inline-block;
+}
+.statNumber {
+  .number {
+    font-size: 18px;
+    padding: 0 5px;
+  }
+  .label {
+    font-size: 12px;
+    
+  }
+}
+.topLineFlex {
+  margin: 0;
+}

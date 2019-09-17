@@ -1,37 +1,17 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState, useEffect } from 'react';
+import news from 'api/news';
 import {
   Carousel,
   CarouselItem,
-  CarouselIndicators,
-  CarouselCaption
+  CarouselIndicators
 } from 'reactstrap';
 
 import styles from './NewsCarousel.module.scss';
-const items = [
-  {
-    src: 'https://static.appledaily.hk/images/e-paper/20190912/large/1568282043_9a4a.jpg',
-    altText: '【逆權運動】民主派倡警執勤衝突前讀誓詞被否決 沙田區會主席稱令警「仲失控',
-    caption: 'Slide 1',
-    url: 'https://hk.news.appledaily.com/local/realtime/article/20190912/60038070?utm_campaign=hkad_social_hk.nextmedia&utm_medium=social&utm_source=facebook&utm_content=link_post&fbclid=IwAR05JYRsZ9Bl9wkyobnW4c2WDGDD2aCvBTAOWTu-KqDzJlsPO89vWMCDAy8',
-  },
-  {
-    src: 'https://static.appledaily.hk/images/e-paper/20190912/large/1568267132_cb88.jpg',
-    altText: '【逆權運動】民主派倡警執勤衝突前讀誓詞被否決 沙田區會主席稱令警「仲失控',
-    caption: 'Slide 2',
-    url: 'https://hk.news.appledaily.com/local/realtime/article/20190912/60036929',
-  },
-  {
-    src: 'https://static.appledaily.hk/images/e-paper/20190912/large/1568264048_beb8.jpg',
-    altText: '【李八方online】民建聯敢做唔敢認 民主黨免費借banner位代宣傳「好事」',
-    caption: 'Slide 3',
-    url: 'https://hk.news.appledaily.com/local/realtime/article/20190912/60036486',
-  }
-];
 
 function NewsCarousel({ history }) {
   const [ activeIndex, setActiveIndex ] = useState(0);
   const [ animating, setAnimating ] = useState(false);
+  const [ items, setItems ] = useState([]);
   
   const onExiting = () => setAnimating(true);
   const onExited = () => setAnimating(false);
@@ -47,6 +27,9 @@ function NewsCarousel({ history }) {
     if (animating) return;
     setActiveIndex(newIndex);
   }
+  useEffect(() => {
+    news().then(setItems);
+  }, []);
   
   return (
     <Carousel

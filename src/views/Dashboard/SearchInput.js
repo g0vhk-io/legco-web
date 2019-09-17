@@ -1,5 +1,9 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { withRouter } from 'react-router';
+import onClickOutside from "react-onclickoutside";
+import classnames from 'classnames';
+import searchResult from 'api/searchResult';
+
 import {
   InputGroup,
   Input,
@@ -8,53 +12,40 @@ import {
 } from 'reactstrap';
 import styles from './SearchInput.module.scss';
 
-const result = [
-  {
-    id: '123',
-    name: '陳方安生',
-    avatar: 'assets/img/avatars/1.jpg',
-    party: '新民黨',
-    attendance: '50%',
-    lastAction: 'agree',
-  },
-  {
-    id: '1233',
-    name: '葉劉淑儀',
-    avatar: 'assets/img/avatars/1.jpg',
-    party: '新民黨',
-    attendance: '30%',
-    lastAction: 'disagree',
-  },
-  {
-    id: '1234',
-    name: '田北辰',
-    avatar: 'assets/img/avatars/1.jpg',
-    party: '新民黨',
-    attendance: '20%',
-    lastAction: 'abstention',
-  },
-  {
-    id: '1235',
-    name: '田北辰',
-    avatar: 'assets/img/avatars/1.jpg',
-    party: '新民黨',
-    attendance: '20%',
-    lastAction: 'absent',
-  }
-];
 
 function SearchInput({ history }) {
   const [ keyword, setKeyword ] = useState('');
+  const [ showResult, setShowResult ] = useState(false);
+  const [ result, setResult ] = useState([]);
+
+  SearchInput.handleClickOutside = () => setShowResult(false);
+  
+  const onChangeKeyword = (e) => {
+    setKeyword(e.target.value);
+    setShowResult(true);
+  }
+  const onFocus = () => setShowResult(true);
+  
+  useEffect(() => {
+    if (keyword.length < 3) {
+      setShowResult(false);
+      setResult([]);
+      return;
+    }
+    searchResult(keyword)
+      .then(setResult);
+  }, [keyword])
+  
   return (
     <>
       <InputGroup>
         <InputGroupAddon addonType="prepend">
           <span className="input-group-text"><i class="fas fa-search" /></span>
         </InputGroupAddon>
-        <Input placeholder="議員名稱" size="lg" value={keyword} onChange={e => setKeyword(e.target.value)}/>
+        <Input placeholder="議員名稱" size="lg" value={keyword} onChange={onChangeKeyword} onFocus={onFocus}/>
       </InputGroup>
-      <InputGroup>
-        <div className={`${styles.searchResult}`}>
+      <div className={classnames(styles.searchResultWrapper, { 'd-none': !showResult })}>
+        <div className={styles.searchResult}>
           <Table hover responsive className="table-outline mb-0 d-sm-table">
             <tbody>
               {result.map(r => (
@@ -72,9 +63,14 @@ function SearchInput({ history }) {
             </tbody>
           </Table>
         </div>
-      </InputGroup>
+      </div>
     </>
   );
 }
 
-export default withRouter(SearchInput);
+const clickOutsideConfig = {
+  handleClickOutside: () => SearchInput.handleClickOutside
+};
+ 
+ 
+export default withRouter(onClickOutside(SearchInput, clickOutsideConfig));
