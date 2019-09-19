@@ -1,35 +1,60 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { withRouter } from 'react-router';
 import { Route, Switch, Link } from 'react-router-dom';
-import getMember, { news, voteHistory } from 'api/member';
 import { Nav, NavItem, NavLink } from 'reactstrap';
-import classnames from 'classnames';
 import Votes from './Votes';
 import Speech from './Speech';
 
 function Member({ history, match, id }) {
-  console.log(match);
-  const [ activeTab, setActiveTab ] = useState({});
   const { url } = match;
+  const isActive = url => !!(url === history.location.pathname);
   return (
     <>
       <div className="bg-white">
         <Nav tabs styles={{ width: '100%'}}>
           <NavItem>
-            <Link exact to={url}>
-              <NavLink to={url}>投票</NavLink>
+            <Link to={url}>
+              <NavLink
+                exact
+                to={url}
+                active={isActive(url)}
+              >
+                投票
+              </NavLink>
             </Link>
           </NavItem>
           <NavItem>
-            <Link exact to={`${url}/speech`}>
-              <NavLink exact to={`${url}/speech`}>發言</NavLink>
+            <Link to={`${url}/speech`}>
+              <NavLink
+                exact
+                to={`${url}/speech`}
+                active={isActive(`${url}/speech`)}
+              >
+                發言
+              </NavLink>
             </Link>
           </NavItem>
           <NavItem>
-            <NavLink href="#">質詢</NavLink>
+            <Link to={`${url}/questions`}>
+              <NavLink
+                exact
+                to={`${url}/questions`}
+                active={isActive(`${url}/questions`)}
+              >
+                質詢
+              </NavLink>
+            </Link>
           </NavItem>
           <NavItem>
-            <NavLink disabled href="#">新聞</NavLink>
+            <Link to={`${url}/news`}>
+              <NavLink
+                exact
+                to={`${url}/news`}
+                active={isActive(`${url}/news`)}
+              >
+                新聞
+              </NavLink>
+            </Link>
           </NavItem>
         </Nav>
       </div>
