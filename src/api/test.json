@@ -1,0 +1,1493 @@
+[ 
+   { 
+      "name_en":"Fifth Legislative Council (2012-2016)",
+      "name_ch":"\u7b2c\u4e94\u5c46\u7acb\u6cd5\u6703(2012\u81f32016\u5e74)",
+      "start_year":2012,
+      "members":[ 
+         { 
+            "name_ch":"\u9673\u9451\u6797",
+            "name_en":"CHAN Kam-lam",
+            "id":5,
+            "image":"/static/legco/member/ckl.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u9ec3\u570b\u5065",
+            "name_en":"WONG Kwok-kin",
+            "id":27,
+            "image":"/static/legco/member/wkk.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u5de5\u6703\u806f\u5408\u6703",
+               "name_en":"Hong Kong Federation of Trade Unions",
+               "id":4
+            }
+         },
+         { 
+            "name_ch":"\u8b1d\u5049\u4fca",
+            "name_en":"Paul TSE",
+            "id":30,
+            "image":"/static/legco/member/twc.jpg",
+            "party":{ 
+               "name_ch":"\u5275\u5efa\u529b\u91cf",
+               "name_en":"\u5275\u5efa\u529b\u91cf",
+               "id":19
+            }
+         },
+         { 
+            "name_ch":"\u6881\u5bb6\u5091",
+            "name_en":"Alan LEONG",
+            "id":31,
+            "image":"/static/legco/member/lkk.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u6c11\u9ee8",
+               "name_en":"Civic Party",
+               "id":5
+            }
+         },
+         { 
+            "name_ch":"\u80e1\u5fd7\u5049",
+            "name_en":"WU Chi-wai",
+            "id":41,
+            "image":"/static/legco/member/wcw.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u9ee8",
+               "name_en":"Democratic Party",
+               "id":3
+            }
+         },
+         { 
+            "name_ch":"\u6881\u7f8e\u82ac",
+            "name_en":"Dr Priscilla LEUNG",
+            "id":24,
+            "image":"/static/legco/member/lmf.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+               "name_en":"Business and Professionals Alliance for Hong Kong",
+               "id":2
+            }
+         },
+         { 
+            "name_ch":"\u9ec3\u6bd3\u6c11",
+            "name_en":"WONG Yuk-man",
+            "id":34,
+            "image":"/static/legco/member/wym.jpg",
+            "party":{ 
+               "name_ch":"\u666e\u7f85\u653f\u6cbb\u5b78\u82d1",
+               "name_en":"Proletariat Political Institute",
+               "id":20
+            }
+         },
+         { 
+            "name_ch":"\u6bdb\u5b5f\u975c",
+            "name_en":"Claudia MO",
+            "id":35,
+            "image":"/static/legco/member/mc.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u6c11\u9ee8",
+               "name_en":"Civic Party",
+               "id":5
+            }
+         },
+         { 
+            "name_ch":"\u9ec3\u78a7\u96f2",
+            "name_en":"Dr Helena WONG",
+            "id":59,
+            "image":"/static/legco/member/wpw.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u9ee8",
+               "name_en":"Democratic Party",
+               "id":3
+            }
+         },
+         { 
+            "name_ch":"\u8523\u9e97\u82b8",
+            "name_en":"Dr CHIANG Lai-wan",
+            "id":65,
+            "image":"/static/legco/member/clw.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u9673\u5065\u6ce2",
+            "name_en":"CHAN Kin-por",
+            "id":23,
+            "image":"/static/legco/member/ckp.jpg",
+            "party":null
+         },
+         { 
+            "name_ch":"\u90ed\u5049\u5f37",
+            "name_en":"KWOK Wai-keung",
+            "id":54,
+            "image":"/static/legco/member/kwk.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u5de5\u6703\u806f\u5408\u6703",
+               "name_en":"Hong Kong Federation of Trade Unions",
+               "id":4
+            }
+         },
+         { 
+            "name_ch":"\u6f58\u5146\u5e73",
+            "name_en":"POON Siu-ping",
+            "id":63,
+            "image":"/static/legco/member/psp.jpg",
+            "party":{ 
+               "name_ch":"\u6e2f\u4e5d\u52de\u5de5\u793e\u5718\u806f\u6703",
+               "name_en":"The Federation of Hong Kong and Kowloon Labour Unions",
+               "id":22
+            }
+         },
+         { 
+            "name_ch":"\u9127\u5bb6\u5f6a",
+            "name_en":"TANG Ka-piu",
+            "id":64,
+            "image":"/static/legco/member/tkp.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u5de5\u6703\u806f\u5408\u6703",
+               "name_en":"Hong Kong Federation of Trade Unions",
+               "id":4
+            }
+         },
+         { 
+            "name_ch":"\u8449\u570b\u8b19",
+            "name_en":"IP Kwok-him",
+            "id":28,
+            "image":"/static/legco/member/ikh.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u4f55\u4fca\u4ec1",
+            "name_en":"Albert HO",
+            "id":2,
+            "image":"/static/legco/member/hcy.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u9ee8",
+               "name_en":"Democratic Party",
+               "id":3
+            }
+         },
+         { 
+            "name_ch":"\u6d82\u8b39\u7533",
+            "name_en":"James TO",
+            "id":4,
+            "image":"/static/legco/member/tks.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u9ee8",
+               "name_en":"Democratic Party",
+               "id":3
+            }
+         },
+         { 
+            "name_ch":"\u99ae\u6aa2\u57fa",
+            "name_en":"Frederick FUNG",
+            "id":12,
+            "image":"/static/legco/member/fkk.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u6c11\u4e3b\u6c11\u751f\u5354\u9032\u6703",
+               "name_en":"Hong Kong Association for Democracy and People's Livelihood",
+               "id":12
+            }
+         },
+         { 
+            "name_ch":"\u674e\u6167\u743c",
+            "name_en":"Starry LEE",
+            "id":20,
+            "image":"/static/legco/member/lwks.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u9673\u5a49\u5afb",
+            "name_en":"CHAN Yuen-han",
+            "id":49,
+            "image":"/static/legco/member/cyh.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u5de5\u6703\u806f\u5408\u6703",
+               "name_en":"Hong Kong Federation of Trade Unions",
+               "id":4
+            }
+         },
+         { 
+            "name_ch":"\u6797\u5065\u92d2",
+            "name_en":"Jeffrey LAM",
+            "id":16,
+            "image":"/static/legco/member/lkf.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+               "name_en":"Business and Professionals Alliance for Hong Kong",
+               "id":2
+            }
+         },
+         { 
+            "name_ch":"\u5ed6\u9577\u6c5f",
+            "name_en":"Martin LIAO",
+            "id":62,
+            "image":"/static/legco/member/lck.jpg",
+            "party":null
+         },
+         { 
+            "name_ch":"\u77f3\u79ae\u8b19",
+            "name_en":"Abraham SHEK",
+            "id":10,
+            "image":"/static/legco/member/slh.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+               "name_en":"Business and Professionals Alliance for Hong Kong",
+               "id":2
+            }
+         },
+         { 
+            "name_ch":"\u6881\u541b\u5f65",
+            "name_en":"Andrew LEUNG",
+            "id":17,
+            "image":"/static/legco/member/lky.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+               "name_en":"Business and Professionals Alliance for Hong Kong",
+               "id":2
+            }
+         },
+         { 
+            "name_ch":"\u6797\u5927\u8f1d",
+            "name_en":"Dr LAM Tai-fai",
+            "id":21,
+            "image":"/static/legco/member/ltf.jpg",
+            "party":null
+         },
+         { 
+            "name_ch":"\u76e7\u5049\u570b",
+            "name_en":"Ir Dr LO Wai-kwok",
+            "id":66,
+            "image":"/static/legco/member/lwk.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+               "name_en":"Business and Professionals Alliance for Hong Kong",
+               "id":2
+            }
+         },
+         { 
+            "name_ch":"\u8b1d\u5049\u9293",
+            "name_en":"Tony TSE",
+            "id":69,
+            "image":"/static/legco/member/twct.jpg",
+            "party":null
+         },
+         { 
+            "name_ch":"\u65b9\u525b",
+            "name_en":"Vincent FANG",
+            "id":13,
+            "image":"/static/legco/member/fk.jpg",
+            "party":{ 
+               "name_ch":"\u81ea\u7531\u9ee8",
+               "name_en":"Liberal Party",
+               "id":6
+            }
+         },
+         { 
+            "name_ch":"\u8449\u5efa\u6e90",
+            "name_en":"IP Kin-yuen",
+            "id":60,
+            "image":"/static/legco/member/iky.jpg",
+            "party":{ 
+               "name_ch":"\u6559\u5354",
+               "name_en":"Hong Kong Professional Teachers' Union",
+               "id":21
+            }
+         },
+         { 
+            "name_ch":"\u5289\u6167\u537f",
+            "name_en":"Emily LAU",
+            "id":8,
+            "image":"/static/legco/member/lwh.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u9ee8",
+               "name_en":"Democratic Party",
+               "id":3
+            }
+         },
+         { 
+            "name_ch":"\u6e6f\u5bb6\u9a4a",
+            "name_en":"Ronny TONG",
+            "id":71,
+            "image":"/static/legco/member/tkw.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u6c11\u9ee8",
+               "name_en":"Civic Party",
+               "id":5
+            }
+         },
+         { 
+            "name_ch":"\u9673\u514b\u52e4",
+            "name_en":"CHAN Hak-kan",
+            "id":22,
+            "image":"/static/legco/member/chk.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u6881\u570b\u96c4",
+            "name_en":"LEUNG Kwok-hung",
+            "id":32,
+            "image":"/static/legco/member/lkh.jpg",
+            "party":{ 
+               "name_ch":"\u793e\u6703\u6c11\u4e3b\u9023\u7dda",
+               "name_en":"League of Social Democrats",
+               "id":16
+            }
+         },
+         { 
+            "name_ch":"\u7530\u5317\u4fca",
+            "name_en":"James TIEN",
+            "id":37,
+            "image":"/static/legco/member/tpc.jpg",
+            "party":{ 
+               "name_ch":"\u81ea\u7531\u9ee8",
+               "name_en":"Liberal Party",
+               "id":6
+            }
+         },
+         { 
+            "name_ch":"\u8303\u570b\u5a01",
+            "name_en":"Gary FAN",
+            "id":43,
+            "image":"/static/legco/member/fkw.jpg",
+            "party":{ 
+               "name_ch":"\u65b0\u6c11\u4e3b\u540c\u76df",
+               "name_en":"Neo Democrats",
+               "id":13
+            }
+         },
+         { 
+            "name_ch":"\u9673\u5fd7\u5168",
+            "name_en":"CHAN Chi-chuen",
+            "id":46,
+            "image":"/static/legco/member/ccc.jpg",
+            "party":{ 
+               "name_ch":"\u4eba\u6c11\u529b\u91cf",
+               "name_en":"People Power",
+               "id":10
+            }
+         },
+         { 
+            "name_ch":"\u5f35\u8d85\u96c4",
+            "name_en":"Dr Fernando CHEUNG",
+            "id":57,
+            "image":"/static/legco/member/cch.jpg",
+            "party":{ 
+               "name_ch":"\u5de5\u9ee8",
+               "name_en":"Labour Party",
+               "id":7
+            }
+         },
+         { 
+            "name_ch":"\u845b\u73ee\u5e06",
+            "name_en":"Dr Elizabeth QUAT",
+            "id":61,
+            "image":"/static/legco/member/qe.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u694a\u5cb3\u6a4b",
+            "name_en":"Alvin YEUNG",
+            "id":70,
+            "image":"/static/legco/member/ynk.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u6c11\u9ee8",
+               "name_en":"Civic Party",
+               "id":5
+            }
+         },
+         { 
+            "name_ch":"\u674e\u5353\u4eba",
+            "name_en":"LEE Cheuk-yan",
+            "id":3,
+            "image":"/static/legco/member/lcy.jpg",
+            "party":{ 
+               "name_ch":"\u5de5\u9ee8",
+               "name_en":"Labour Party",
+               "id":7
+            }
+         },
+         { 
+            "name_ch":"\u6881\u8000\u5fe0",
+            "name_en":"LEUNG Yiu-chung",
+            "id":6,
+            "image":"/static/legco/member/lyc.jpg",
+            "party":{ 
+               "name_ch":"\u8857\u574a\u5de5\u53cb\u670d\u52d9\u8655",
+               "name_en":"Neighbourhood and Worker's Service Centre",
+               "id":14
+            }
+         },
+         { 
+            "name_ch":"\u8b5a\u8000\u5b97",
+            "name_en":"TAM Yiu-chung",
+            "id":9,
+            "image":"/static/legco/member/tyc.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u9673\u5049\u696d",
+            "name_en":"Albert CHAN",
+            "id":33,
+            "image":"/static/legco/member/cwy.jpg",
+            "party":{ 
+               "name_ch":"\u4eba\u6c11\u529b\u91cf",
+               "name_en":"People Power",
+               "id":10
+            }
+         },
+         { 
+            "name_ch":"\u7530\u5317\u8fb0",
+            "name_en":"Michael TIEN",
+            "id":36,
+            "image":"/static/legco/member/tps.jpg",
+            "party":{ 
+               "name_ch":"\u65b0\u6c11\u9ee8",
+               "name_en":"New People's Party",
+               "id":18
+            }
+         },
+         { 
+            "name_ch":"\u9673\u6052\u944c",
+            "name_en":"CHAN Han-pan",
+            "id":47,
+            "image":"/static/legco/member/chp.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u6881\u5fd7\u7965",
+            "name_en":"LEUNG Che-cheung",
+            "id":50,
+            "image":"/static/legco/member/lcc.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u9ea5\u7f8e\u5a1f",
+            "name_en":"Alice MAK",
+            "id":52,
+            "image":"/static/legco/member/mmk.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u5de5\u6703\u806f\u5408\u6703",
+               "name_en":"Hong Kong Federation of Trade Unions",
+               "id":4
+            }
+         },
+         { 
+            "name_ch":"\u90ed\u5bb6\u9e92",
+            "name_en":"Dr KWOK Ka-ki",
+            "id":53,
+            "image":"/static/legco/member/kkk.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u6c11\u9ee8",
+               "name_en":"Civic Party",
+               "id":5
+            }
+         },
+         { 
+            "name_ch":"\u59da\u601d\u69ae",
+            "name_en":"YIU Si-wing",
+            "id":42,
+            "image":"/static/legco/member/ysw.jpg",
+            "party":null
+         },
+         { 
+            "name_ch":"\u6881\u7e7c\u660c",
+            "name_en":"Kenneth LEUNG",
+            "id":51,
+            "image":"/static/legco/member/lk.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u5171\u5c08\u696d\u806f\u76df",
+               "name_en":"Professional Commons",
+               "id":11
+            }
+         },
+         { 
+            "name_ch":"\u90ed\u69ae\u93d7",
+            "name_en":"Dennis KWOK",
+            "id":55,
+            "image":"/static/legco/member/kd.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u6c11\u9ee8",
+               "name_en":"Civic Party",
+               "id":5
+            }
+         },
+         { 
+            "name_ch":"\u4f55\u4fca\u8ce2",
+            "name_en":"Steven HO",
+            "id":39,
+            "image":"/static/legco/member/hcys.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u5f35\u570b\u67f1",
+            "name_en":"CHEUNG Kwok-che",
+            "id":26,
+            "image":"/static/legco/member/ckc.jpg",
+            "party":{ 
+               "name_ch":"\u5de5\u9ee8",
+               "name_en":"Labour Party",
+               "id":7
+            }
+         },
+         { 
+            "name_ch":"\u937e\u570b\u658c",
+            "name_en":"CHUNG Kwok-pan",
+            "id":67,
+            "image":"/static/legco/member/ckpf.jpg",
+            "party":{ 
+               "name_ch":"\u81ea\u7531\u9ee8",
+               "name_en":"Liberal Party",
+               "id":6
+            }
+         },
+         { 
+            "name_ch":"\u6613\u5fd7\u660e",
+            "name_en":"Frankie YICK",
+            "id":40,
+            "image":"/static/legco/member/ycm.jpg",
+            "party":{ 
+               "name_ch":"\u81ea\u7531\u9ee8",
+               "name_en":"Liberal Party",
+               "id":6
+            }
+         },
+         { 
+            "name_ch":"\u674e\u570b\u9e9f",
+            "name_en":"Prof Joseph LEE",
+            "id":15,
+            "image":"/static/legco/member/lklj.jpg",
+            "party":null
+         },
+         { 
+            "name_ch":"\u83ab\u4e43\u5149",
+            "name_en":"Charles Peter MOK",
+            "id":45,
+            "image":"/static/legco/member/mcp.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u5171\u5c08\u696d\u806f\u76df",
+               "name_en":"Professional Commons",
+               "id":11
+            }
+         },
+         { 
+            "name_ch":"\u9ec3\u5b9a\u5149",
+            "name_en":"WONG Ting-kwong",
+            "id":18,
+            "image":"/static/legco/member/wtk.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u5289\u7687\u767c",
+            "name_en":"Dr LAU Wong-fat",
+            "id":7,
+            "image":"/static/legco/member/lwf.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+               "name_en":"Business and Professionals Alliance for Hong Kong",
+               "id":2
+            }
+         },
+         { 
+            "name_ch":"\u6881\u5bb6\u9a2e",
+            "name_en":"Dr LEUNG Ka-lau",
+            "id":25,
+            "image":"/static/legco/member/lkl.jpg",
+            "party":null
+         },
+         { 
+            "name_ch":"\u5f35\u83ef\u5cf0",
+            "name_en":"Christopher CHEUNG",
+            "id":56,
+            "image":"/static/legco/member/cwf.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+               "name_en":"Business and Professionals Alliance for Hong Kong",
+               "id":2
+            }
+         },
+         { 
+            "name_ch":"\u5433\u4eae\u661f",
+            "name_en":"NG Leung-sing",
+            "id":38,
+            "image":"/static/legco/member/nls.jpg",
+            "party":null
+         },
+         { 
+            "name_ch":"\u5f35\u5b87\u4eba",
+            "name_en":"Tommy CHEUNG",
+            "id":11,
+            "image":"/static/legco/member/cyy.jpg",
+            "party":{ 
+               "name_ch":"\u81ea\u7531\u9ee8",
+               "name_en":"Liberal Party",
+               "id":6
+            }
+         },
+         { 
+            "name_ch":"\u66fe\u923a\u6210",
+            "name_en":"TSANG Yok-sing",
+            "id":1,
+            "image":"/static/legco/member/tys.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u738b\u570b\u8208",
+            "name_en":"WONG Kwok-hing",
+            "id":14,
+            "image":"/static/legco/member/wkh.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u5de5\u6703\u806f\u5408\u6703",
+               "name_en":"Hong Kong Federation of Trade Unions",
+               "id":4
+            }
+         },
+         { 
+            "name_ch":"\u4f55\u79c0\u862d",
+            "name_en":"Cyd HO",
+            "id":19,
+            "image":"/static/legco/member/hsl.jpg",
+            "party":{ 
+               "name_ch":"\u5de5\u9ee8",
+               "name_en":"Labour Party",
+               "id":7
+            }
+         },
+         { 
+            "name_ch":"\u8449\u5289\u6dd1\u5100",
+            "name_en":"Mrs Regina IP",
+            "id":29,
+            "image":"/static/legco/member/ilsy.jpg",
+            "party":{ 
+               "name_ch":"\u65b0\u6c11\u9ee8",
+               "name_en":"New People's Party",
+               "id":18
+            }
+         },
+         { 
+            "name_ch":"\u9673\u5bb6\u6d1b",
+            "name_en":"Dr Kenneth CHAN",
+            "id":48,
+            "image":"/static/legco/member/cklk.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u6c11\u9ee8",
+               "name_en":"Civic Party",
+               "id":5
+            }
+         },
+         { 
+            "name_ch":"\u55ae\u4ef2\u5055",
+            "name_en":"SIN Chung-kai",
+            "id":58,
+            "image":"/static/legco/member/sck.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u9ee8",
+               "name_en":"Democratic Party",
+               "id":3
+            }
+         },
+         { 
+            "name_ch":"\u937e\u6a39\u6839",
+            "name_en":"Christopher CHUNG",
+            "id":68,
+            "image":"/static/legco/member/csk.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u99ac\u9022\u570b",
+            "name_en":"MA Fung-kwok",
+            "id":44,
+            "image":"/static/legco/member/mfk.jpg",
+            "party":{ 
+               "name_ch":"\u65b0\u4e16\u7d00\u8ad6\u58c7",
+               "name_en":"New Century Forum",
+               "id":17
+            }
+         }
+      ],
+      "chairman":{ 
+         "name_ch":"\u66fe\u923a\u6210",
+         "name_en":"TSANG Yok-sing",
+         "id":1,
+         "image":"/static/legco/member/tys.jpg",
+         "party":{ 
+            "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+            "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+            "id":1
+         }
+      }
+   },
+   { 
+      "name_en":"Sixth Legislative Council (2016-2020)",
+      "name_ch":"\u7b2c\u516d\u5c46\u7acb\u6cd5\u6703(2016\u81f32020\u5e74)",
+      "start_year":2016,
+      "members":[ 
+         { 
+            "name_ch":"\u67ef\u5275\u76db",
+            "name_en":"Wilson Or",
+            "id":107,
+            "image":"/static/legco/member/wo.png",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u80e1\u5fd7\u5049",
+            "name_en":"WU Chi-wai",
+            "id":41,
+            "image":"/static/legco/member/wcw.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u9ee8",
+               "name_en":"Democratic Party",
+               "id":3
+            }
+         },
+         { 
+            "name_ch":"\u8b1d\u5049\u4fca",
+            "name_en":"Paul TSE",
+            "id":30,
+            "image":"/static/legco/member/twc.jpg",
+            "party":{ 
+               "name_ch":"\u5275\u5efa\u529b\u91cf",
+               "name_en":"\u5275\u5efa\u529b\u91cf",
+               "id":19
+            }
+         },
+         { 
+            "name_ch":"\u9ec3\u570b\u5065",
+            "name_en":"WONG Kwok-kin",
+            "id":27,
+            "image":"/static/legco/member/wkk.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u5de5\u6703\u806f\u5408\u6703",
+               "name_en":"Hong Kong Federation of Trade Unions",
+               "id":4
+            }
+         },
+         { 
+            "name_ch":"\u8b5a\u6587\u8c6a",
+            "name_en":"Jeremy Tam",
+            "id":108,
+            "image":"/static/legco/member/jt.png",
+            "party":{ 
+               "name_ch":"\u516c\u6c11\u9ee8",
+               "name_en":"Civic Party",
+               "id":5
+            }
+         },
+         { 
+            "name_ch":"\u6731\u51f1\u5ef8",
+            "name_en":"Chu Hoi Dick",
+            "id":109,
+            "image":"/static/legco/member/chd.png",
+            "party":null
+         },
+         { 
+            "name_ch":"\u7530\u5317\u8fb0",
+            "name_en":"Michael TIEN",
+            "id":36,
+            "image":"/static/legco/member/tps.jpg",
+            "party":{ 
+               "name_ch":"\u65b0\u6c11\u9ee8",
+               "name_en":"New People's Party",
+               "id":18
+            }
+         },
+         { 
+            "name_ch":"\u9673\u6052\u944c",
+            "name_en":"CHAN Han-pan",
+            "id":47,
+            "image":"/static/legco/member/chp.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u912d\u677e\u6cf0",
+            "name_en":"Cheng Chun Tai",
+            "id":110,
+            "image":"/static/legco/member/cct.png",
+            "party":null
+         },
+         { 
+            "name_ch":"\u6881\u5fd7\u7965",
+            "name_en":"LEUNG Che-cheung",
+            "id":50,
+            "image":"/static/legco/member/lcc.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u9ea5\u7f8e\u5a1f",
+            "name_en":"Alice MAK",
+            "id":52,
+            "image":"/static/legco/member/mmk.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u5de5\u6703\u806f\u5408\u6703",
+               "name_en":"Hong Kong Federation of Trade Unions",
+               "id":4
+            }
+         },
+         { 
+            "name_ch":"\u90ed\u5bb6\u9e92",
+            "name_en":"Dr KWOK Ka-ki",
+            "id":53,
+            "image":"/static/legco/member/kkk.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u6c11\u9ee8",
+               "name_en":"Civic Party",
+               "id":5
+            }
+         },
+         { 
+            "name_ch":"\u5c39\u5146\u5805",
+            "name_en":"Wen Siu Kin",
+            "id":111,
+            "image":"/static/legco/member/wsk.png",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u9ee8",
+               "name_en":"Democratic Party",
+               "id":3
+            }
+         },
+         { 
+            "name_ch":"\u913a\u4fca\u5b87",
+            "name_en":"Kwong Chun Yu",
+            "id":97,
+            "image":"/static/legco/member/kcy.png",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u9ee8",
+               "name_en":"Democratic Party",
+               "id":3
+            }
+         },
+         { 
+            "name_ch":"\u674e\u6167\u743c",
+            "name_en":"Starry LEE",
+            "id":20,
+            "image":"/static/legco/member/lwks.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u6881\u8000\u5fe0",
+            "name_en":"LEUNG Yiu-chung",
+            "id":6,
+            "image":"/static/legco/member/lyc.jpg",
+            "party":{ 
+               "name_ch":"\u8857\u574a\u5de5\u53cb\u670d\u52d9\u8655",
+               "name_en":"Neighbourhood and Worker's Service Centre",
+               "id":14
+            }
+         },
+         { 
+            "name_ch":"\u5468\u6d69\u9f0e",
+            "name_en":"Chow Ho Ding",
+            "id":98,
+            "image":"/static/legco/member/hchd.png",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u6d82\u8b39\u7533",
+            "name_en":"James TO",
+            "id":4,
+            "image":"/static/legco/member/tks.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u9ee8",
+               "name_en":"Democratic Party",
+               "id":3
+            }
+         },
+         { 
+            "name_ch":"\u8449\u5289\u6dd1\u5100",
+            "name_en":"Mrs Regina IP",
+            "id":29,
+            "image":"/static/legco/member/ilsy.jpg",
+            "party":{ 
+               "name_ch":"\u65b0\u6c11\u9ee8",
+               "name_en":"New People's Party",
+               "id":18
+            }
+         },
+         { 
+            "name_ch":"\u7f85\u51a0\u8070",
+            "name_en":"Law Kwun Chung",
+            "id":99,
+            "image":"/static/legco/member/lkc.png",
+            "party":null
+         },
+         { 
+            "name_ch":"\u90ed\u5049\u5f37",
+            "name_en":"KWOK Wai-keung",
+            "id":54,
+            "image":"/static/legco/member/kwk.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u5de5\u6703\u806f\u5408\u6703",
+               "name_en":"Hong Kong Federation of Trade Unions",
+               "id":4
+            }
+         },
+         { 
+            "name_ch":"\u8a31\u667a\u5cef",
+            "name_en":"Hui Chi Fung",
+            "id":100,
+            "image":"/static/legco/member/hcf.png",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u9ee8",
+               "name_en":"Democratic Party",
+               "id":3
+            }
+         },
+         { 
+            "name_ch":"\u5f35\u570b\u921e",
+            "name_en":"Cheung Kwok Kwan",
+            "id":101,
+            "image":"/static/legco/member/ckk.png",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u9673\u6dd1\u838a",
+            "name_en":"Tanya CHAN",
+            "id":87,
+            "image":"/static/legco/member/ct.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u6c11\u9ee8",
+               "name_en":"Civic Party",
+               "id":5
+            }
+         },
+         { 
+            "name_ch":"\u8523\u9e97\u82b8",
+            "name_en":"Dr CHIANG Lai-wan",
+            "id":65,
+            "image":"/static/legco/member/clw.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u9ec3\u78a7\u96f2",
+            "name_en":"Dr Helena WONG",
+            "id":59,
+            "image":"/static/legco/member/wpw.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u9ee8",
+               "name_en":"Democratic Party",
+               "id":3
+            }
+         },
+         { 
+            "name_ch":"\u5289\u5c0f\u9e97",
+            "name_en":"Lau Siu Lai",
+            "id":104,
+            "image":"/static/legco/member/lsl.png",
+            "party":null
+         },
+         { 
+            "name_ch":"\u6bdb\u5b5f\u975c",
+            "name_en":"Claudia MO",
+            "id":35,
+            "image":"/static/legco/member/mc.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u6c11\u9ee8",
+               "name_en":"Civic Party",
+               "id":5
+            }
+         },
+         { 
+            "name_ch":"\u6e38\u8559\u798e",
+            "name_en":"Yau Wai Ching",
+            "id":105,
+            "image":"/static/legco/member/ywc.png",
+            "party":null
+         },
+         { 
+            "name_ch":"\u6881\u7f8e\u82ac",
+            "name_en":"Dr Priscilla LEUNG",
+            "id":24,
+            "image":"/static/legco/member/lmf.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+               "name_en":"Business and Professionals Alliance for Hong Kong",
+               "id":2
+            }
+         },
+         { 
+            "name_ch":"\u4f55\u541b\u582f",
+            "name_en":"Ho Kwan Yiu",
+            "id":112,
+            "image":"/static/legco/member/hky.png",
+            "party":null
+         },
+         { 
+            "name_ch":"\u845b\u73ee\u5e06",
+            "name_en":"Dr Elizabeth QUAT",
+            "id":61,
+            "image":"/static/legco/member/qe.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u694a\u5cb3\u6a4b",
+            "name_en":"Alvin YEUNG",
+            "id":70,
+            "image":"/static/legco/member/ynk.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u6c11\u9ee8",
+               "name_en":"Civic Party",
+               "id":5
+            }
+         },
+         { 
+            "name_ch":"\u5f35\u8d85\u96c4",
+            "name_en":"Dr Fernando CHEUNG",
+            "id":57,
+            "image":"/static/legco/member/cch.jpg",
+            "party":{ 
+               "name_ch":"\u5de5\u9ee8",
+               "name_en":"Labour Party",
+               "id":7
+            }
+         },
+         { 
+            "name_ch":"\u9673\u514b\u52e4",
+            "name_en":"CHAN Hak-kan",
+            "id":22,
+            "image":"/static/legco/member/chk.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u9673\u5fd7\u5168",
+            "name_en":"CHAN Chi-chuen",
+            "id":46,
+            "image":"/static/legco/member/ccc.jpg",
+            "party":{ 
+               "name_ch":"\u4eba\u6c11\u529b\u91cf",
+               "name_en":"People Power",
+               "id":10
+            }
+         },
+         { 
+            "name_ch":"\u6797\u5353\u5ef7",
+            "name_en":"Lam Cheuk Ting",
+            "id":102,
+            "image":"/static/legco/member/lct.png",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u9ee8",
+               "name_en":"Democratic Party",
+               "id":3
+            }
+         },
+         { 
+            "name_ch":"\u6881\u980c\u6046",
+            "name_en":"Baggio Leung",
+            "id":106,
+            "image":"/static/legco/member/bl.png",
+            "party":null
+         },
+         { 
+            "name_ch":"\u5bb9\u6d77\u6069",
+            "name_en":"Eunice Yung",
+            "id":103,
+            "image":"/static/legco/member/ey.png",
+            "party":{ 
+               "name_ch":"\u65b0\u6c11\u9ee8",
+               "name_en":"New People's Party",
+               "id":18
+            }
+         },
+         { 
+            "name_ch":"\u6881\u570b\u96c4",
+            "name_en":"LEUNG Kwok-hung",
+            "id":32,
+            "image":"/static/legco/member/lkh.jpg",
+            "party":{ 
+               "name_ch":"\u793e\u6703\u6c11\u4e3b\u9023\u7dda",
+               "name_en":"League of Social Democrats",
+               "id":16
+            }
+         },
+         { 
+            "name_ch":"\u5433\u6c38\u5609",
+            "name_en":"Jimmy Ng Wing-ka",
+            "id":119,
+            "image":"/static/legco/member/nwk.png",
+            "party":null
+         },
+         { 
+            "name_ch":"\u4f55\u4fca\u8ce2",
+            "name_en":"Steven HO",
+            "id":39,
+            "image":"/static/legco/member/hcys.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u6613\u5fd7\u660e",
+            "name_en":"Frankie YICK",
+            "id":40,
+            "image":"/static/legco/member/ycm.jpg",
+            "party":{ 
+               "name_ch":"\u81ea\u7531\u9ee8",
+               "name_en":"Liberal Party",
+               "id":6
+            }
+         },
+         { 
+            "name_ch":"\u5289\u696d\u5f37",
+            "name_en":"Kenneth Lau Ip-keung",
+            "id":113,
+            "image":"/static/legco/member/lik.png",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+               "name_en":"Business and Professionals Alliance for Hong Kong",
+               "id":2
+            }
+         },
+         { 
+            "name_ch":"\u9673\u5065\u6ce2",
+            "name_en":"CHAN Kin-por",
+            "id":23,
+            "image":"/static/legco/member/ckp.jpg",
+            "party":null
+         },
+         { 
+            "name_ch":"\u8449\u5efa\u6e90",
+            "name_en":"IP Kin-yuen",
+            "id":60,
+            "image":"/static/legco/member/iky.jpg",
+            "party":{ 
+               "name_ch":"\u6559\u5354",
+               "name_en":"Hong Kong Professional Teachers' Union",
+               "id":21
+            }
+         },
+         { 
+            "name_ch":"\u90ed\u69ae\u93d7",
+            "name_en":"Dennis KWOK",
+            "id":55,
+            "image":"/static/legco/member/kd.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u6c11\u9ee8",
+               "name_en":"Civic Party",
+               "id":5
+            }
+         },
+         { 
+            "name_ch":"\u6881\u7e7c\u660c",
+            "name_en":"Kenneth LEUNG",
+            "id":51,
+            "image":"/static/legco/member/lk.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u5171\u5c08\u696d\u806f\u76df",
+               "name_en":"Professional Commons",
+               "id":11
+            }
+         },
+         { 
+            "name_ch":"\u9673\u6c9b\u7136",
+            "name_en":"Pierre Chan Pui-yin",
+            "id":114,
+            "image":"/static/legco/member/cpy.png",
+            "party":null
+         },
+         { 
+            "name_ch":"\u674e\u570b\u9e9f",
+            "name_en":"Prof Joseph LEE",
+            "id":15,
+            "image":"/static/legco/member/lklj.jpg",
+            "party":null
+         },
+         { 
+            "name_ch":"\u76e7\u5049\u570b",
+            "name_en":"Ir Dr LO Wai-kwok",
+            "id":66,
+            "image":"/static/legco/member/lwk.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+               "name_en":"Business and Professionals Alliance for Hong Kong",
+               "id":2
+            }
+         },
+         { 
+            "name_ch":"\u59da\u677e\u708e",
+            "name_en":"Edward Yiu Chung-yim",
+            "id":115,
+            "image":"/static/legco/member/ycy.png",
+            "party":null
+         },
+         { 
+            "name_ch":"\u6f58\u5146\u5e73",
+            "name_en":"POON Siu-ping",
+            "id":63,
+            "image":"/static/legco/member/psp.jpg",
+            "party":{ 
+               "name_ch":"\u6e2f\u4e5d\u52de\u5de5\u793e\u5718\u806f\u6703",
+               "name_en":"The Federation of Hong Kong and Kowloon Labour Unions",
+               "id":22
+            }
+         },
+         { 
+            "name_ch":"\u9678\u980c\u96c4",
+            "name_en":"Michael Luk Chung-hung",
+            "id":117,
+            "image":"/static/legco/member/lch.png",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u5de5\u6703\u806f\u5408\u6703",
+               "name_en":"Hong Kong Federation of Trade Unions",
+               "id":4
+            }
+         },
+         { 
+            "name_ch":"\u4f55\u555f\u660e",
+            "name_en":"Jonathan Ho Kai-ming",
+            "id":116,
+            "image":"/static/legco/member/hkm.png",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u5de5\u6703\u806f\u5408\u6703",
+               "name_en":"Hong Kong Federation of Trade Unions",
+               "id":4
+            }
+         },
+         { 
+            "name_ch":"\u90b5\u5bb6\u81fb",
+            "name_en":"Bottle Shiu Ka-chun",
+            "id":118,
+            "image":"/static/legco/member/skc.png",
+            "party":null
+         },
+         { 
+            "name_ch":"\u77f3\u79ae\u8b19",
+            "name_en":"Abraham SHEK",
+            "id":10,
+            "image":"/static/legco/member/slh.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+               "name_en":"Business and Professionals Alliance for Hong Kong",
+               "id":2
+            }
+         },
+         { 
+            "name_ch":"\u59da\u601d\u69ae",
+            "name_en":"YIU Si-wing",
+            "id":42,
+            "image":"/static/legco/member/ysw.jpg",
+            "party":null
+         },
+         { 
+            "name_ch":"\u6797\u5065\u92d2",
+            "name_en":"Jeffrey LAM",
+            "id":16,
+            "image":"/static/legco/member/lkf.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+               "name_en":"Business and Professionals Alliance for Hong Kong",
+               "id":2
+            }
+         },
+         { 
+            "name_ch":"\u5ed6\u9577\u6c5f",
+            "name_en":"Martin LIAO",
+            "id":62,
+            "image":"/static/legco/member/lck.jpg",
+            "party":null
+         },
+         { 
+            "name_ch":"\u6881\u541b\u5f65",
+            "name_en":"Andrew LEUNG",
+            "id":17,
+            "image":"/static/legco/member/lky.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+               "name_en":"Business and Professionals Alliance for Hong Kong",
+               "id":2
+            }
+         },
+         { 
+            "name_ch":"\u5f35\u83ef\u5cf0",
+            "name_en":"Christopher CHEUNG",
+            "id":56,
+            "image":"/static/legco/member/cwf.jpg",
+            "party":{ 
+               "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+               "name_en":"Business and Professionals Alliance for Hong Kong",
+               "id":2
+            }
+         },
+         { 
+            "name_ch":"\u99ac\u9022\u570b",
+            "name_en":"MA Fung-kwok",
+            "id":44,
+            "image":"/static/legco/member/mfk.jpg",
+            "party":{ 
+               "name_ch":"\u65b0\u4e16\u7d00\u8ad6\u58c7",
+               "name_en":"New Century Forum",
+               "id":17
+            }
+         },
+         { 
+            "name_ch":"\u9ec3\u5b9a\u5149",
+            "name_en":"WONG Ting-kwong",
+            "id":18,
+            "image":"/static/legco/member/wtk.jpg",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u937e\u570b\u658c",
+            "name_en":"CHUNG Kwok-pan",
+            "id":67,
+            "image":"/static/legco/member/ckpf.jpg",
+            "party":{ 
+               "name_ch":"\u81ea\u7531\u9ee8",
+               "name_en":"Liberal Party",
+               "id":6
+            }
+         },
+         { 
+            "name_ch":"\u90b5\u5bb6\u8f1d",
+            "name_en":"Peter Shiu Ka-fai",
+            "id":121,
+            "image":"/static/legco/member/skf.png",
+            "party":{ 
+               "name_ch":"\u81ea\u7531\u9ee8",
+               "name_en":"Liberal Party",
+               "id":6
+            }
+         },
+         { 
+            "name_ch":"\u83ab\u4e43\u5149",
+            "name_en":"Charles Peter MOK",
+            "id":45,
+            "image":"/static/legco/member/mcp.jpg",
+            "party":{ 
+               "name_ch":"\u516c\u5171\u5c08\u696d\u806f\u76df",
+               "name_en":"Professional Commons",
+               "id":11
+            }
+         },
+         { 
+            "name_ch":"\u5f35\u5b87\u4eba",
+            "name_en":"Tommy CHEUNG",
+            "id":11,
+            "image":"/static/legco/member/cyy.jpg",
+            "party":{ 
+               "name_ch":"\u81ea\u7531\u9ee8",
+               "name_en":"Liberal Party",
+               "id":6
+            }
+         },
+         { 
+            "name_ch":"\u5289\u570b\u52f3",
+            "name_en":"Edward Lau Kwok-fan",
+            "id":122,
+            "image":"/static/legco/member/elkf.png",
+            "party":{ 
+               "name_ch":"\u6c11\u4e3b\u5efa\u6e2f\u5354\u9032\u806f\u76df",
+               "name_en":"Democratic Alliance for the Betterment and Progress of Hong Kong",
+               "id":1
+            }
+         },
+         { 
+            "name_ch":"\u9673\u632f\u82f1",
+            "name_en":"Ronick Chan Chun-ying",
+            "id":120,
+            "image":"/static/legco/member/ccy.png",
+            "party":null
+         }
+      ],
+      "chairman":{ 
+         "name_ch":"\u6881\u541b\u5f65",
+         "name_en":"Andrew LEUNG",
+         "id":17,
+         "image":"/static/legco/member/lky.jpg",
+         "party":{ 
+            "name_ch":"\u9999\u6e2f\u7d93\u6fdf\u6c11\u751f\u806f\u76df",
+            "name_en":"Business and Professionals Alliance for Hong Kong",
+            "id":2
+         }
+      }
+   }
+]

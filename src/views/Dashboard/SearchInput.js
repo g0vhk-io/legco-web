@@ -40,7 +40,7 @@ function SearchInput({ history }) {
     <>
       <InputGroup>
         <InputGroupAddon addonType="prepend">
-          <span className="input-group-text"><i class="fas fa-search" /></span>
+          <span className="input-group-text"><i className="fas fa-search" /></span>
         </InputGroupAddon>
         <Input placeholder="議員名稱" size="lg" value={keyword} onChange={onChangeKeyword} onFocus={onFocus}/>
       </InputGroup>
@@ -48,18 +48,7 @@ function SearchInput({ history }) {
         <div className={styles.searchResult}>
           <Table hover responsive className="table-outline mb-0 d-sm-table">
             <tbody>
-              {result.map(r => (
-                <tr key={r.id} onClick={() => history.push(`/members/${r.id}`)} className="pointer">
-                  <td className="text-center">
-                    <div className="avatar">
-                      <img src={r.avatar} className="img-avatar" alt={r.name} />
-                    </div>
-                  </td>
-                  <td>
-                    <div>{r.name}</div>
-                  </td>
-                </tr>
-              ))}
+              {result.map(member => <Row member={member} key={`member-${member.id}`} />)}
             </tbody>
           </Table>
         </div>
@@ -68,9 +57,31 @@ function SearchInput({ history }) {
   );
 }
 
+const Row = withRouter(({ member, history }) => {
+  return (
+    <tr
+      onClick={() => history.push(`/members/${member.id}`)}
+      className="pointer ignore-react-onclickoutside"
+    >
+      <td className="text-center">
+        <div className="avatar">
+          <div
+            style={{ backgroundImage: `url(${member.avatar})`}}
+            className={styles.avatar}
+            alt={member.name}
+          />
+        </div>
+      </td>
+      <td>
+        <h5>{member.name}</h5>
+      </td>
+    </tr>
+  )
+})
+
 const clickOutsideConfig = {
-  handleClickOutside: () => SearchInput.handleClickOutside
+  handleClickOutside: () => SearchInput.handleClickOutside,
 };
  
  
-export default withRouter(onClickOutside(SearchInput, clickOutsideConfig));
+export default onClickOutside(SearchInput, clickOutsideConfig);

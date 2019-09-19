@@ -1,11 +1,16 @@
 import { delayResponse } from './';
 
+import response from './test.json';
+const members = response.reduce((acc, r) => acc.concat(r.members), []); 
+
 export default function (id) {
+  const member = members.find(m => `${m.id}` === `${id}`);
+  if (!member) return delayResponse({});
   return delayResponse({
-    id: '123',
-    name: '陳方安生',
-    avatar: 'assets/img/avatars/1.jpg',
-    party: '新民黨',
+    id: id,
+    name: member.name_ch,
+    avatar: `https://g0vhk.io${member.image}`,
+    party: member.party && member.party.name_ch,
     attendance: '50%',
     vote: '12.2%',
     lastAction: 'agree',
