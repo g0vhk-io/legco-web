@@ -63,17 +63,17 @@ function App() {
           <Row>&nbsp;</Row>
           <Row>
             <Col><Link to="/nteast"><Button variant="primary" block size="lg">新界東</Button></Link></Col>
-            <Col><Link to="/nteast"><Button variant="secondary" block size="lg">新界西</Button></Link></Col>
+            <Col><Link to="/ntwest"><Button variant="secondary" block size="lg">新界西</Button></Link></Col>
           </Row>
           <Row>&nbsp;</Row>
           <Row>
-            <Col><Link to="/nteast"><Button variant="success" block size="lg">九龍東</Button></Link></Col>
-            <Col><Link to="/nteast"><Button variant="warning" block size="lg">九龍西</Button></Link></Col>
+            <Col><Link to="/kleast"><Button variant="success" block size="lg">九龍東</Button></Link></Col>
+            <Col><Link to="/klwest"><Button variant="warning" block size="lg">九龍西</Button></Link></Col>
           </Row>
           <Row>&nbsp;</Row>
           <Row>
-            <Col><Link to="/nteast"><Button variant="danger" block size="lg">港島</Button></Link></Col>
-            <Col><Link to="/nteast"><Button variant="info" block size="lg">功能</Button></Link></Col>
+            <Col><Link to="/island"><Button variant="danger" block size="lg">港島</Button></Link></Col>
+            <Col><Link to="/fc"><Button variant="info" block size="lg">功能</Button></Link></Col>
           </Row>
         </Container>
       </header>
@@ -93,11 +93,11 @@ class List extends React.Component {
   }
 
   async getMembers() {
-    const response = await fetch('https://api.g0vhk.io/legco/councils/');
+    const response = await fetch('https://api.g0vhk.io/legco/council/2016/' + this.props.type);
     const json = await response.json();
     let party = ''
     
-    const members = json[0]['members'];
+    const members = json;
     console.log(members);
     this.setState({members:members})
   }
@@ -109,19 +109,19 @@ class List extends React.Component {
             <Breadcrumb>
               <Breadcrumb.Item><Link to="/">議員</Link></Breadcrumb.Item>
               <Breadcrumb.Item>
-                新界東
+                {this.props.title}
               </Breadcrumb.Item>
             </Breadcrumb>
           <div>
             {this.state.members.map(member => 
-              <Link to="/member">
+              <Link to={"/member/" + member.member.id}>
               <Card style={{'padding':'4pt'}}>
               <div style={{'display': 'flex'}}>
               
-                  <div><img variant="primary" src={"https://g0vhk.io" + member.image} width="80"/></div>
+                  <div><img variant="primary" src={"https://g0vhk.io" + member.member.image} width="80"/></div>
                   <div><Card.Body>
-                    <Card.Title>{member.name_ch}</Card.Title>
-                    <Card.Subtitle>{member.party && member.party.name_ch}</Card.Subtitle>
+                    <Card.Title>{member.member.name_ch} {member.member.ma}</Card.Title>
+                    <Card.Subtitle>{member.member.party ? member.member.party.name_ch : "獨立"}</Card.Subtitle>
                   </Card.Body></div>
               </div>
               </Card>
@@ -136,14 +136,26 @@ class List extends React.Component {
 }
 
 
-function Detail() {
-  const member = {
-    "name_ch": "\u9ec3\u570b\u5065",
-    "image": "/static/legco/member/wkk.jpg",
-    "party": {
-      "name_ch": "\u9999\u6e2f\u5de5\u6703\u806f\u5408\u6703",
-    }
-  };
+class Detail extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {member: {}}
+  }
+
+  componentDidMount() {
+    this.getMember();
+  }
+
+  async getMember() {
+    const { memberId } = this.props.match.params
+    const response = await fetch('https://api.g0vhk.io/legco/individual/' + memberId);
+    const json = await response.json();
+    let party = ''
+    this.setState({member:json})
+  }
+
+  render() {
+  const { member } = this.state;
   return (
     <div>
       <Container fluid={true}>
@@ -159,7 +171,7 @@ function Detail() {
           
               <div><img variant="primary" src={"https://g0vhk.io" + member.image} width="80"/></div>
               <div><Card.Body>
-                <Card.Title>{member.name_ch}</Card.Title>
+                <Card.Title>{member.name_ch} &nbsp;&nbsp; {member.present / (member.present + member.absent) * 100 }</Card.Title>
                 <Card.Subtitle>{member.party && member.party.name_ch}</Card.Subtitle>
               </Card.Body></div>
           </div>
@@ -179,16 +191,49 @@ function Detail() {
 
 
     </div>);
+  }
 }
+
+
+function NTWList() {
+  return (<List type="NTW" title="新界西"/>);
+}
+
+function NTEList() {
+  return (<List type="NTE" title="新界東"/>);
+}
+
+function KLWList() {
+  return (<List type="KLW" title="九龍西"/>);
+}
+
+function KLEList() {
+  return (<List type="KLE" title="九龍東"/>);
+}
+
+function IslandList() {
+  return (<List type="ISLAND" title="港島"/>);
+}
+
+function FCList() {
+  return (<List type="FC" title="功能"/>);
+}
+
+
 
 
 function AppRouter() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <Route path="/" exact component={App} />
-        <Route path="/nteast" exact component={List} />
-        <Route path="/member" exact component={Detail} />
+        <Route path="/nteast" exact component={NTEList} />
+        <Route path="/ntwest" exact component={NTWList} />
+        <Route path="/kleast" exact component={KLEList} />
+        <Route path="/klwest" exact component={KLWList} />
+        <Route path="/island" exact component={IslandList} />
+        <Route path="/fc" exact component={FCList} />
+        <Route path="/member/:memberId" exact component={Detail} />
       </div>
     </Router>    
   );
